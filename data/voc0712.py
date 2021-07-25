@@ -23,7 +23,7 @@ if sys.version_info[0] == 2:
 else:
     import xml.etree.ElementTree as ET
 
-BCCD_CLASSES = ('without_mask', 'with_mask')
+BCCD_CLASSES = ('without_mask', 'with_mask', 'mask_weared_incorrect')
 
 VOC_CLASSES = ('aeroplane', 'bicycle', 'bird', 'boat',
            'bottle', 'bus', 'car', 'cat', 'chair',
