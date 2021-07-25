@@ -124,7 +124,7 @@ class VOCDetection(data.Dataset):
         self.target_transform = target_transform
         self.name = dataset_name
         self._annopath = osp.join('%s', 'Annotations', '%s.xml')
-        self._imgpath = osp.join('%s', 'JPEGImages', '%s.jpg')
+        self._imgpath = osp.join('%s', 'PNGImages', '%s.png')
         self.ids = list()
         for (dir, name) in image_sets:
             rootpath = osp.join(self.root, dir)
